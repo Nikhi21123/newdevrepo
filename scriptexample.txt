@@ -1,0 +1,18 @@
+The first command that should be run after writing a new Terraform configuration is the terraform `init command` in order to initialize a working directory containing Terraform configuration files. It is safe to run this command multiple times.
+Initialize working directory.
+  The first command that should be run after writing a new Terraform configuration is the `terraform init` command in order to initialize a working directory containing Terraform configuration files. It is safe to run this command multiple times.
+  ```bash
+  terraform init
+  ```
+
+* Validate the changes:
+* Validate the changes.
+
+  Run command:
+
+  ```bash
+  terraform plan
+  ```
+
+* Deploy the changes:
+* Deploy the changes.
